@@ -1,0 +1,110 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mongodb"
+  url      = env("DATABASE_URL")
+}
+
+// NextAuth Models
+model Account {
+  id                 String  @id @default(cuid()) @map("_id")
+  userId             String
+  type               String
+  provider           String
+  providerAccountId  String
+  refresh_token      String?
+  access_token       String?
+  expires_at         Int?
+  token_type         String?
+  scope              String?
+  id_token           String?
+  session_state      String?
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([provider, providerAccountId])
+}
+
+model Session {
+  id           String   @id @default(cuid()) @map("_id")
+  sessionToken String   @unique
+  userId       String
+  expires      DateTime
+  user         User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+model User {
+  id             String    @id @default(cuid()) @map("_id")
+  name           String?
+  email          String?   @unique
+  emailVerified  DateTime?
+  mobileNumber   String?   @unique
+  mobileVerified DateTime?
+  image          String?
+  role           String    @default("fan")
+  passwordHash   String?
+  accounts       Account[]
+  sessions       Session[]
+  orders         Order[]
+}
+
+model VerificationToken {
+  id         String   @id @default(cuid()) @map("_id")
+  identifier String
+  token      String   @unique
+  expires    DateTime
+
+  @@unique([identifier, token])
+}
+
+// Application Models
+model Team {
+  id          String  @id @map("_id")
+  name        String
+  flag        String
+  region      String
+  fifaRanking Int?
+  code        String?
+  
+  homeMatches Match[] @relation("HomeTeam")
+  awayMatches Match[] @relation("AwayTeam")
+}
+
+model Match {
+  id         String @id @map("_id")
+  date       String
+  time       String
+  stadium    String
+  stage      String
+  status     String
+  
+  homeTeamId String
+  homeTeam   Team   @relation("HomeTeam", fields: [homeTeamId], references: [id])
+  homeScore  Int?
+  
+  awayTeamId String
+  awayTeam   Team   @relation("AwayTeam", fields: [awayTeamId], references: [id])
+  awayScore  Int?
+}
+
+model Product {
+  id       String  @id @map("_id")
+  name     String
+  price    Float
+  image    String
+  tag      String?
+  category String?
+  type     String  @default("merchandise") // 'merchandise' or 'collectible'
+  club     String?
+}
+
+model Order {
+  id        String   @id @default(cuid()) @map("_id")
+  userId    String
+  user      User     @relation(fields: [userId], references: [id])
+  total     Float
+  status    String   @default("pending")
+  createdAt DateTime @default(now())
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "id": 98,
+    "date": "2026-07-11",
+    "time": "15:00",
+    "stage": "Quarter-final",
+    "stadium": "Los Angeles Stadium",
+    "status": "LIVE",
+    "homeTeam": { "code": "ESP", "name": "Spain", "flag": "🇪🇸", "score": 2 },
+    "awayTeam": { "code": "BEL", "name": "Belgium", "flag": "🇧🇪", "score": 1 }
+  },
+  {
+    "id": 99,
+    "date": "2026-07-11",
+    "time": "20:00",
+    "stage": "Quarter-final",
+    "stadium": "Gillette Stadium, Boston",
+    "status": "Upcoming",
+    "homeTeam": { "code": "ENG", "name": "England", "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿", "score": null },
+    "awayTeam": { "code": "POR", "name": "Portugal", "flag": "🇵🇹", "score": null }
+  },
+  {
+    "id": 97,
+    "date": "2026-07-10",
+    "time": "18:00",
+    "stage": "Quarter-final",
+    "stadium": "MetLife Stadium, New York",
+    "status": "FT",
+    "homeTeam": { "code": "FRA", "name": "France", "flag": "🇫🇷", "score": 2 },
+    "awayTeam": { "code": "MAR", "name": "Morocco", "flag": "🇲🇦", "score": 0 }
+  },
+  {
+    "id": 89,
+    "date": "2026-07-07",
+    "time": "14:00",
+    "stage": "Round of 16",
+    "stadium": "Miami Stadium",
+    "status": "FT",
+    "homeTeam": { "code": "PAR", "name": "Paraguay", "flag": "🇵🇾", "score": 0 },
+    "awayTeam": { "code": "FRA", "name": "France", "flag": "🇫🇷", "score": 1 }
+  }
+]

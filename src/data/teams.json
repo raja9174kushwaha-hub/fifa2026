@@ -1,0 +1,126 @@
+{
+  "groups": {
+    "A": [
+      { "id": "usa", "name": "United States", "code": "USA", "flag": "🇺🇸", "coach": "Mauricio Pochettino", "fifaRanking": 14, "stats": { "mp": 3, "w": 2, "d": 1, "l": 0, "gf": 5, "ga": 1, "gd": 4, "pts": 7 } },
+      { "id": "mex", "name": "Mexico", "code": "MEX", "flag": "🇲🇽", "coach": "Javier Aguirre", "fifaRanking": 15, "stats": { "mp": 3, "w": 2, "d": 0, "l": 1, "gf": 4, "ga": 3, "gd": 1, "pts": 6 } },
+      { "id": "uru", "name": "Uruguay", "code": "URU", "flag": "🇺🇾", "coach": "Marcelo Bielsa", "fifaRanking": 11, "stats": { "mp": 3, "w": 1, "d": 1, "l": 1, "gf": 3, "ga": 3, "gd": 0, "pts": 4 } },
+      { "id": "nzl", "name": "New Zealand", "code": "NZL", "flag": "🇳🇿", "coach": "Darren Bazeley", "fifaRanking": 94, "stats": { "mp": 3, "w": 0, "d": 0, "l": 3, "gf": 0, "ga": 5, "gd": -5, "pts": 0 } }
+    ],
+    "B": [
+      { "id": "arg", "name": "Argentina", "code": "ARG", "flag": "🇦🇷", "coach": "Lionel Scaloni", "fifaRanking": 1, "stats": { "mp": 3, "w": 3, "d": 0, "l": 0, "gf": 7, "ga": 1, "gd": 6, "pts": 9 } },
+      { "id": "col", "name": "Colombia", "code": "COL", "flag": "🇨🇴", "coach": "Néstor Lorenzo", "fifaRanking": 12, "stats": { "mp": 3, "w": 1, "d": 1, "l": 1, "gf": 3, "ga": 3, "gd": 0, "pts": 4 } },
+      { "id": "sen", "name": "Senegal", "code": "SEN", "flag": "🇸🇳", "coach": "Aliou Cissé", "fifaRanking": 21, "stats": { "mp": 3, "w": 1, "d": 1, "l": 1, "gf": 2, "ga": 3, "gd": -1, "pts": 4 } },
+      { "id": "can", "name": "Canada", "code": "CAN", "flag": "🇨🇦", "coach": "Jesse Marsch", "fifaRanking": 41, "stats": { "mp": 3, "w": 0, "d": 0, "l": 3, "gf": 1, "ga": 6, "gd": -5, "pts": 0 } }
+    ],
+    "C": [
+      { "id": "fra", "name": "France", "code": "FRA", "flag": "🇫🇷", "coach": "Didier Deschamps", "fifaRanking": 2, "stats": { "mp": 3, "w": 2, "d": 1, "l": 0, "gf": 6, "ga": 2, "gd": 4, "pts": 7 } },
+      { "id": "den", "name": "Denmark", "code": "DEN", "flag": "🇩🇰", "coach": "Kasper Hjulmand", "fifaRanking": 18, "stats": { "mp": 3, "w": 1, "d": 2, "l": 0, "gf": 3, "ga": 2, "gd": 1, "pts": 5 } },
+      { "id": "per", "name": "Peru", "code": "PER", "flag": "🇵🇪", "coach": "Jorge Fossati", "fifaRanking": 32, "stats": { "mp": 3, "w": 1, "d": 0, "l": 2, "gf": 2, "ga": 4, "gd": -2, "pts": 3 } },
+      { "id": "sau", "name": "Saudi Arabia", "code": "KSA", "flag": "🇸🇦", "coach": "Roberto Mancini", "fifaRanking": 56, "stats": { "mp": 3, "w": 0, "d": 1, "l": 2, "gf": 1, "ga": 4, "gd": -3, "pts": 1 } }
+    ],
+    "D": [
+      { "id": "eng", "name": "England", "code": "ENG", "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿", "coach": "Thomas Tuchel", "fifaRanking": 5, "stats": { "mp": 3, "w": 3, "d": 0, "l": 0, "gf": 8, "ga": 1, "gd": 7, "pts": 9 } },
+      { "id": "ger", "name": "Germany", "code": "GER", "flag": "🇩🇪", "coach": "Julian Nagelsmann", "fifaRanking": 3, "stats": { "mp": 3, "w": 2, "d": 0, "l": 1, "gf": 5, "ga": 3, "gd": 2, "pts": 6 } },
+      { "id": "jpn", "name": "Japan", "code": "JPN", "flag": "🇯🇵", "coach": "Hajime Moriyasu", "fifaRanking": 17, "stats": { "mp": 3, "w": 1, "d": 0, "l": 2, "gf": 3, "ga": 4, "gd": -1, "pts": 3 } },
+      { "id": "crc", "name": "Costa Rica", "code": "CRC", "flag": "🇨🇷", "coach": "Claudio Vivas", "fifaRanking": 52, "stats": { "mp": 3, "w": 0, "d": 0, "l": 3, "gf": 0, "ga": 8, "gd": -8, "pts": 0 } }
+    ],
+    "E": [
+      { "id": "esp", "name": "Spain", "code": "ESP", "flag": "🇪🇸", "coach": "Luis de la Fuente", "fifaRanking": 4, "stats": { "mp": 3, "w": 2, "d": 1, "l": 0, "gf": 5, "ga": 1, "gd": 4, "pts": 7 } },
+      { "id": "bra", "name": "Brazil", "code": "BRA", "flag": "🇧🇷", "coach": "Dorival Júnior", "fifaRanking": 6, "stats": { "mp": 3, "w": 2, "d": 0, "l": 1, "gf": 4, "ga": 2, "gd": 2, "pts": 6 } },
+      { "id": "nga", "name": "Nigeria", "code": "NGA", "flag": "🇳🇬", "coach": "Finidi George", "fifaRanking": 36, "stats": { "mp": 3, "w": 1, "d": 0, "l": 2, "gf": 2, "ga": 3, "gd": -1, "pts": 3 } },
+      { "id": "cze", "name": "Czech Republic", "code": "CZE", "flag": "🇨🇿", "coach": "Ivan Hašek", "fifaRanking": 42, "stats": { "mp": 3, "w": 0, "d": 1, "l": 2, "gf": 1, "ga": 6, "gd": -5, "pts": 1 } }
+    ],
+    "F": [
+      { "id": "por", "name": "Portugal", "code": "POR", "flag": "🇵🇹", "coach": "Roberto Martínez", "fifaRanking": 7, "stats": { "mp": 3, "w": 2, "d": 1, "l": 0, "gf": 6, "ga": 2, "gd": 4, "pts": 7 } },
+      { "id": "ned", "name": "Netherlands", "code": "NED", "flag": "🇳🇱", "coach": "Ronald Koeman", "fifaRanking": 8, "stats": { "mp": 3, "w": 2, "d": 0, "l": 1, "gf": 5, "ga": 3, "gd": 2, "pts": 6 } },
+      { "id": "tur", "name": "Türkiye", "code": "TUR", "flag": "🇹🇷", "coach": "Vincenzo Montella", "fifaRanking": 26, "stats": { "mp": 3, "w": 1, "d": 0, "l": 2, "gf": 2, "ga": 4, "gd": -2, "pts": 3 } },
+      { "id": "cmr", "name": "Cameroon", "code": "CMR", "flag": "🇨🇲", "coach": "Marc Brys", "fifaRanking": 50, "stats": { "mp": 3, "w": 0, "d": 1, "l": 2, "gf": 1, "ga": 5, "gd": -4, "pts": 1 } }
+    ],
+    "G": [
+      { "id": "bel", "name": "Belgium", "code": "BEL", "flag": "🇧🇪", "coach": "Domenico Tedesco", "fifaRanking": 9, "stats": { "mp": 3, "w": 2, "d": 1, "l": 0, "gf": 5, "ga": 2, "gd": 3, "pts": 7 } },
+      { "id": "sui", "name": "Switzerland", "code": "SUI", "flag": "🇨🇭", "coach": "Murat Yakın", "fifaRanking": 16, "stats": { "mp": 3, "w": 1, "d": 2, "l": 0, "gf": 3, "ga": 2, "gd": 1, "pts": 5 } },
+      { "id": "kor", "name": "Korea Republic", "code": "KOR", "flag": "🇰🇷", "coach": "Hong Myung-bo", "fifaRanking": 23, "stats": { "mp": 3, "w": 1, "d": 0, "l": 2, "gf": 2, "ga": 4, "gd": -2, "pts": 3 } },
+      { "id": "jam", "name": "Jamaica", "code": "JAM", "flag": "🇯🇲", "coach": "Heimir Hallgrímsson", "fifaRanking": 62, "stats": { "mp": 3, "w": 0, "d": 1, "l": 2, "gf": 1, "ga": 3, "gd": -2, "pts": 1 } }
+    ],
+    "H": [
+      { "id": "mar", "name": "Morocco", "code": "MAR", "flag": "🇲🇦", "coach": "Walid Regragui", "fifaRanking": 10, "stats": { "mp": 3, "w": 2, "d": 0, "l": 1, "gf": 4, "ga": 2, "gd": 2, "pts": 6 } },
+      { "id": "cro", "name": "Croatia", "code": "CRO", "flag": "🇭🇷", "coach": "Zlatko Dalić", "fifaRanking": 13, "stats": { "mp": 3, "w": 2, "d": 0, "l": 1, "gf": 4, "ga": 3, "gd": 1, "pts": 6 } },
+      { "id": "ecu", "name": "Ecuador", "code": "ECU", "flag": "🇪🇨", "coach": "Sebastián Beccacece", "fifaRanking": 28, "stats": { "mp": 3, "w": 1, "d": 0, "l": 2, "gf": 2, "ga": 3, "gd": -1, "pts": 3 } },
+      { "id": "bah", "name": "Bahrain", "code": "BHR", "flag": "🇧🇭", "coach": "Juan Antonio Pizzi", "fifaRanking": 81, "stats": { "mp": 3, "w": 0, "d": 0, "l": 3, "gf": 0, "ga": 2, "gd": -2, "pts": 0 } }
+    ],
+    "I": [
+      { "id": "ita", "name": "Italy", "code": "ITA", "flag": "🇮🇹", "coach": "Luciano Spalletti", "fifaRanking": 9, "stats": { "mp": 3, "w": 2, "d": 1, "l": 0, "gf": 4, "ga": 1, "gd": 3, "pts": 7 } },
+      { "id": "par", "name": "Paraguay", "code": "PAR", "flag": "🇵🇾", "coach": "Alfaro", "fifaRanking": 55, "stats": { "mp": 3, "w": 1, "d": 1, "l": 1, "gf": 2, "ga": 2, "gd": 0, "pts": 4 } },
+      { "id": "aus", "name": "Australia", "code": "AUS", "flag": "🇦🇺", "coach": "Graham Arnold", "fifaRanking": 24, "stats": { "mp": 3, "w": 1, "d": 0, "l": 2, "gf": 2, "ga": 4, "gd": -2, "pts": 3 } },
+      { "id": "egy", "name": "Egypt", "code": "EGY", "flag": "🇪🇬", "coach": "Hassan Shehata", "fifaRanking": 33, "stats": { "mp": 3, "w": 0, "d": 2, "l": 1, "gf": 2, "ga": 3, "gd": -1, "pts": 2 } }
+    ],
+    "J": [
+      { "id": "nor", "name": "Norway", "code": "NOR", "flag": "🇳🇴", "coach": "Ståle Solbakken", "fifaRanking": 22, "stats": { "mp": 3, "w": 3, "d": 0, "l": 0, "gf": 9, "ga": 2, "gd": 7, "pts": 9 } },
+      { "id": "swe", "name": "Sweden", "code": "SWE", "flag": "🇸🇪", "coach": "Jon Dahl Tomasson", "fifaRanking": 20, "stats": { "mp": 3, "w": 1, "d": 1, "l": 1, "gf": 3, "ga": 4, "gd": -1, "pts": 4 } },
+      { "id": "alg", "name": "Algeria", "code": "ALG", "flag": "🇩🇿", "coach": "Vladimir Petković", "fifaRanking": 38, "stats": { "mp": 3, "w": 1, "d": 0, "l": 2, "gf": 2, "ga": 3, "gd": -1, "pts": 3 } },
+      { "id": "pan", "name": "Panama", "code": "PAN", "flag": "🇵🇦", "coach": "Thomas Christiansen", "fifaRanking": 44, "stats": { "mp": 3, "w": 0, "d": 1, "l": 2, "gf": 1, "ga": 6, "gd": -5, "pts": 1 } }
+    ],
+    "K": [
+      { "id": "rsa", "name": "South Africa", "code": "RSA", "flag": "🇿🇦", "coach": "Hugo Broos", "fifaRanking": 59, "stats": { "mp": 3, "w": 1, "d": 1, "l": 1, "gf": 3, "ga": 3, "gd": 0, "pts": 4 } },
+      { "id": "irn", "name": "IR Iran", "code": "IRN", "flag": "🇮🇷", "coach": "Amir Ghalenoei", "fifaRanking": 20, "stats": { "mp": 3, "w": 2, "d": 0, "l": 1, "gf": 3, "ga": 2, "gd": 1, "pts": 6 } },
+      { "id": "ser", "name": "Serbia", "code": "SRB", "flag": "🇷🇸", "coach": "Dragan Stojković", "fifaRanking": 34, "stats": { "mp": 3, "w": 1, "d": 1, "l": 1, "gf": 3, "ga": 3, "gd": 0, "pts": 4 } },
+      { "id": "civ", "name": "Côte d'Ivoire", "code": "CIV", "flag": "🇨🇮", "coach": "Emerse Faé", "fifaRanking": 46, "stats": { "mp": 3, "w": 0, "d": 2, "l": 1, "gf": 2, "ga": 3, "gd": -1, "pts": 2 } }
+    ],
+    "L": [
+      { "id": "aut", "name": "Austria", "code": "AUT", "flag": "🇦🇹", "coach": "Ralf Rangnick", "fifaRanking": 19, "stats": { "mp": 3, "w": 2, "d": 0, "l": 1, "gf": 4, "ga": 3, "gd": 1, "pts": 6 } },
+      { "id": "wal", "name": "Wales", "code": "WAL", "flag": "🏴󠁧󠁢󠁷󠁬󠁳󠁿", "coach": "Craig Bellamy", "fifaRanking": 30, "stats": { "mp": 3, "w": 1, "d": 1, "l": 1, "gf": 3, "ga": 3, "gd": 0, "pts": 4 } },
+      { "id": "idn", "name": "Indonesia", "code": "IDN", "flag": "🇮🇩", "coach": "Shin Tae-yong", "fifaRanking": 87, "stats": { "mp": 3, "w": 1, "d": 0, "l": 2, "gf": 2, "ga": 4, "gd": -2, "pts": 3 } },
+      { "id": "tto", "name": "Trinidad and Tobago", "code": "TTO", "flag": "🇹🇹", "coach": "Angus Eve", "fifaRanking": 98, "stats": { "mp": 3, "w": 0, "d": 1, "l": 2, "gf": 1, "ga": 4, "gd": -3, "pts": 1 } }
+    ]
+  },
+  "goldenBoot": [
+    { "name": "Erling Haaland", "team": "NOR", "flag": "🇳🇴", "goals": 7, "assists": 2, "minutesPlayed": 570 },
+    { "name": "Kylian Mbappé", "team": "FRA", "flag": "🇫🇷", "goals": 6, "assists": 3, "minutesPlayed": 540 },
+    { "name": "Harry Kane", "team": "ENG", "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿", "goals": 5, "assists": 1, "minutesPlayed": 510 },
+    { "name": "Lionel Messi", "team": "ARG", "flag": "🇦🇷", "goals": 4, "assists": 4, "minutesPlayed": 480 },
+    { "name": "Lamine Yamal", "team": "ESP", "flag": "🇪🇸", "goals": 4, "assists": 3, "minutesPlayed": 540 },
+    { "name": "Vinícius Jr", "team": "BRA", "flag": "🇧🇷", "goals": 3, "assists": 2, "minutesPlayed": 450 },
+    { "name": "Bukayo Saka", "team": "ENG", "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿", "goals": 3, "assists": 3, "minutesPlayed": 500 },
+    { "name": "Pedri", "team": "ESP", "flag": "🇪🇸", "goals": 3, "assists": 1, "minutesPlayed": 530 }
+  ],
+  "squads": {
+    "eng": {
+      "GK": [
+        { "name": "Jordan Pickford", "number": 1, "club": "Everton", "age": 32, "caps": 72 },
+        { "name": "Dean Henderson", "number": 23, "club": "Crystal Palace", "age": 29, "caps": 4 }
+      ],
+      "DEF": [
+        { "name": "John Stones", "number": 5, "club": "Manchester City", "age": 32, "caps": 82 },
+        { "name": "Kyle Walker", "number": 2, "club": "Manchester City", "age": 36, "caps": 93 },
+        { "name": "Marc Guéhi", "number": 6, "club": "Crystal Palace", "age": 25, "caps": 26 },
+        { "name": "Trent Alexander-Arnold", "number": 18, "club": "Real Madrid", "age": 27, "caps": 35 }
+      ],
+      "MID": [
+        { "name": "Jude Bellingham", "number": 10, "club": "Real Madrid", "age": 22, "caps": 50 },
+        { "name": "Declan Rice", "number": 4, "club": "Arsenal", "age": 27, "caps": 62 },
+        { "name": "Phil Foden", "number": 11, "club": "Manchester City", "age": 26, "caps": 44 },
+        { "name": "Cole Palmer", "number": 20, "club": "Chelsea", "age": 23, "caps": 18 }
+      ],
+      "FWD": [
+        { "name": "Harry Kane", "number": 9, "club": "Bayern Munich", "age": 32, "caps": 102 },
+        { "name": "Bukayo Saka", "number": 7, "club": "Arsenal", "age": 24, "caps": 55 },
+        { "name": "Anthony Gordon", "number": 17, "club": "Newcastle United", "age": 25, "caps": 15 }
+      ]
+    },
+    "fra": {
+      "GK": [{ "name": "Mike Maignan", "number": 16, "club": "AC Milan", "age": 31, "caps": 22 }],
+      "DEF": [
+        { "name": "William Saliba", "number": 4, "club": "Arsenal", "age": 25, "caps": 25 },
+        { "name": "Theo Hernandez", "number": 22, "club": "AC Milan", "age": 28, "caps": 48 }
+      ],
+      "MID": [
+        { "name": "Aurélien Tchouaméni", "number": 8, "club": "Real Madrid", "age": 26, "caps": 46 },
+        { "name": "Eduardo Camavinga", "number": 6, "club": "Real Madrid", "age": 23, "caps": 28 }
+      ],
+      "FWD": [
+        { "name": "Kylian Mbappé", "number": 10, "club": "Real Madrid", "age": 27, "caps": 95 },
+        { "name": "Ousmane Dembélé", "number": 11, "club": "PSG", "age": 29, "caps": 48 }
+      ]
+    }
+  }
+}
