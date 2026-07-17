@@ -1,8 +1,16 @@
 'use client';
 import { useState } from 'react';
 import Link from 'next/link';
+import PropTypes from 'prop-types';
 import { Menu, X, Search, User, Globe, ChevronDown, Trophy, ShoppingBag, Gift, Sparkles, ShieldAlert } from 'lucide-react';
 
+/**
+ * Header component for the application.
+ * Contains navigation, user profile, and search functionality.
+ *
+ * @param {Object} props
+ * @param {Object} [props.session] - NextAuth session object
+ */
 export default function Header({ session }) {
   const [mobileOpen, setMobileOpen] = useState(false);
   const [searchOpen, setSearchOpen] = useState(false);
@@ -53,6 +61,8 @@ export default function Header({ session }) {
               onClick={() => setMobileOpen(!mobileOpen)}
               style={{ background: 'none', border: 'none', color: 'var(--text-light)', cursor: 'pointer', padding: '4px' }}
               aria-label="Toggle menu"
+              aria-expanded={mobileOpen}
+              aria-controls="mobile-menu"
             >
               {mobileOpen ? <X size={22} /> : <Menu size={22} />}
             </button>
@@ -101,6 +111,8 @@ export default function Header({ session }) {
                 fontSize: '0.8rem', fontWeight: 600, padding: '6px 10px',
                 borderRadius: 'var(--radius-full)',
               }}
+              aria-label="Language selector"
+              aria-expanded={langOpen}
             >
               <Globe size={16} /> English <ChevronDown size={12} />
             </button>
@@ -264,8 +276,11 @@ export default function Header({ session }) {
               zIndex: 150,
             }}
             onClick={() => setMobileOpen(false)}
+            aria-hidden="true"
           />
-          <div style={{
+          <div 
+            id="mobile-menu"
+            style={{
             position: 'fixed', top: 0, left: 0, bottom: 0,
             width: '320px', maxWidth: '85vw',
             background: 'var(--fifa-dark)',
@@ -317,3 +332,13 @@ export default function Header({ session }) {
     </>
   );
 }
+
+Header.propTypes = {
+  session: PropTypes.shape({
+    user: PropTypes.shape({
+      name: PropTypes.string,
+      email: PropTypes.string,
+      role: PropTypes.string,
+    }),
+  }),
+};

@@ -1,6 +1,12 @@
 'use client';
 import Link from 'next/link';
 
+/**
+ * Footer component for the application.
+ * Contains navigation links, social links, and legal information.
+ *
+ * @returns {JSX.Element}
+ */
 export default function Footer() {
   const footerColumns = [
     {

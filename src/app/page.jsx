@@ -35,7 +35,7 @@ export default function Home() {
             transition={{ delay: i * 0.05, type: 'spring', stiffness: 300, damping: 20 }}
           >
             <div className={`story-bubble-ring ${i === 2 ? 'active' : ''}`}>
-              <div className="story-bubble-img">{story.img}</div>
+              <div className="story-bubble-img" role="img" aria-label={story.label}>{story.img}</div>
             </div>
             <span className="story-bubble-label">{story.label}</span>
           </motion.div>
@@ -130,6 +130,7 @@ export default function Home() {
                   title={hl.vs}
                   style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', border: 'none' }}
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                  loading="lazy"
                   allowFullScreen
                 ></iframe>
               </div>
