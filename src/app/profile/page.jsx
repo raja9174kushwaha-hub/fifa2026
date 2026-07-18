@@ -169,15 +169,15 @@ export default function ProfilePage() {
                 <div style={{ display: 'flex', flexDirection: 'column', gap: '24px' }}>
                   <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '24px' }}>
                     <div>
-                      <label style={{ display: 'block', fontSize: '0.85rem', fontWeight: 700, marginBottom: '8px', color: 'var(--text-muted)' }}>Name</label>
-                      <input type="text" className="glass-input" defaultValue={user.name} style={{ width: '100%' }} />
+                      <label htmlFor="name" style={{ display: 'block', fontSize: '0.85rem', fontWeight: 700, marginBottom: '8px', color: 'var(--text-muted)' }}>Name</label>
+                      <input id="name" type="text" className="glass-input" defaultValue={user.name} style={{ width: '100%' }} />
                     </div>
                   </div>
                   
                   <div>
-                    <label style={{ display: 'block', fontSize: '0.85rem', fontWeight: 700, marginBottom: '8px', color: 'var(--text-muted)' }}>Email Address</label>
+                    <label htmlFor="email" style={{ display: 'block', fontSize: '0.85rem', fontWeight: 700, marginBottom: '8px', color: 'var(--text-muted)' }}>Email Address</label>
                     <div style={{ display: 'flex', gap: '12px', alignItems: 'center' }}>
-                      <input type="email" className="glass-input" defaultValue={user.email} disabled style={{ width: '100%', opacity: 0.7 }} />
+                      <input id="email" type="email" className="glass-input" defaultValue={user.email} disabled style={{ width: '100%', opacity: 0.7 }} />
                       {user.emailVerified ? (
                         <div style={{ display: 'flex', alignItems: 'center', gap: '4px', color: '#10b981', fontSize: '0.85rem', minWidth: '100px' }}>
                           <CheckCircle size={16} /> Verified
@@ -191,9 +191,9 @@ export default function ProfilePage() {
                   </div>
                   
                   <div>
-                    <label style={{ display: 'block', fontSize: '0.85rem', fontWeight: 700, marginBottom: '8px', color: 'var(--text-muted)' }}>Mobile Number</label>
+                    <label htmlFor="mobile" style={{ display: 'block', fontSize: '0.85rem', fontWeight: 700, marginBottom: '8px', color: 'var(--text-muted)' }}>Mobile Number</label>
                     <div style={{ display: 'flex', gap: '12px', alignItems: 'center' }}>
-                      <input type="text" className="glass-input" defaultValue={user.mobileNumber || 'Not set'} disabled style={{ width: '100%', opacity: 0.7 }} />
+                      <input id="mobile" type="text" className="glass-input" defaultValue={user.mobileNumber || 'Not set'} disabled style={{ width: '100%', opacity: 0.7 }} />
                       {user.mobileVerified ? (
                         <div style={{ display: 'flex', alignItems: 'center', gap: '4px', color: '#10b981', fontSize: '0.85rem', minWidth: '100px' }}>
                           <CheckCircle size={16} /> Verified
@@ -207,8 +207,8 @@ export default function ProfilePage() {
                   </div>
                   
                   <div>
-                    <label style={{ display: 'block', fontSize: '0.85rem', fontWeight: 700, marginBottom: '8px', color: 'var(--text-muted)' }}>Role</label>
-                    <input type="text" className="glass-input" defaultValue={user.role?.toUpperCase()} disabled style={{ width: '100%', opacity: 0.7 }} />
+                    <label htmlFor="role" style={{ display: 'block', fontSize: '0.85rem', fontWeight: 700, marginBottom: '8px', color: 'var(--text-muted)' }}>Role</label>
+                    <input id="role" type="text" className="glass-input" defaultValue={user.role?.toUpperCase()} disabled style={{ width: '100%', opacity: 0.7 }} />
                   </div>
                   
                 </div>
@@ -244,7 +244,9 @@ export default function ProfilePage() {
                           </button>
                         ) : (
                           <div style={{ display: 'flex', gap: '12px', flexWrap: 'wrap' }}>
+                            <label htmlFor="otp-email" className="sr-only" style={{ display: 'none' }}>Email OTP</label>
                             <input 
+                              id="otp-email"
                               type="text" 
                               placeholder="Enter 6-digit OTP" 
                               className="glass-input" 
@@ -272,8 +274,9 @@ export default function ProfilePage() {
                     ) : (
                       <div>
                         <div style={{ marginBottom: '16px' }}>
-                          <label style={{ display: 'block', fontSize: '0.85rem', fontWeight: 700, marginBottom: '8px', color: 'var(--text-muted)' }}>Mobile Number</label>
+                          <label htmlFor="mobile-input" style={{ display: 'block', fontSize: '0.85rem', fontWeight: 700, marginBottom: '8px', color: 'var(--text-muted)' }}>Mobile Number</label>
                           <input 
+                            id="mobile-input"
                             type="tel" 
                             className="glass-input" 
                             placeholder="+1 234 567 8900" 
@@ -294,7 +297,9 @@ export default function ProfilePage() {
                           </button>
                         ) : (
                           <div style={{ display: 'flex', gap: '12px', flexWrap: 'wrap' }}>
+                            <label htmlFor="otp-mobile" className="sr-only" style={{ display: 'none' }}>Mobile OTP</label>
                             <input 
+                              id="otp-mobile"
                               type="text" 
                               placeholder="Enter 6-digit OTP" 
                               className="glass-input" 

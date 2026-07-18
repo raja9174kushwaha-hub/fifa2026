@@ -3,6 +3,7 @@ import { useState } from 'react';
 import Link from 'next/link';
 import PropTypes from 'prop-types';
 import { Menu, X, Search, User, Globe, ChevronDown, Trophy, ShoppingBag, Gift, Sparkles, ShieldAlert } from 'lucide-react';
+import AssistantWidget from './AssistantWidget';
 
 /**
  * Header component for the application.
@@ -202,6 +203,9 @@ export default function Header({ session }) {
               </Link>
             ))}
           </nav>
+          <div style={{ marginLeft: 'auto', position: 'relative' }}>
+            <AssistantWidget />
+          </div>
         </div>
       </header>
 
